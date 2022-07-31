@@ -83,3 +83,11 @@ Once you have owncloud up and running, shut it down and edit the `./data/config/
 ### CAVEATS
 
 - The location of the `./data`, `./nginx`, and `./override` folders can be moved to where you need. You must update the `docker-compose.yml` if you do change their locations.
+
+## Sources;
+
+1. [`owncloud/server`](https://hub.docker.com/r/owncloud/server)
+2. [`webhippie/mariadb`](https://hub.docker.com/r/webhippie/mariadb)
+3. [`redis`](https://hub.docker.com/_/redis)
+4. [`nginxproxy/acme-companion`](https://hub.docker.com/r/nginxproxy/acme-companion)
+5. [`nginxproxy/nginx-proxy`](https://hub.docker.com/r/nginxproxy/nginx-proxy)
